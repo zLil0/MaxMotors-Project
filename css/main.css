@@ -66,6 +66,7 @@ a.active{
 }
 
 main.wrapper{
+    max-width: 1000px;
     padding: 20px 30px;
     background: aliceblue;
     min-height: 89vh;
@@ -120,4 +121,27 @@ main.wrapper{
     padding: 0 10px;
     font-size: 18px;
     font-weight: 700;
+}
+
+#brands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brand{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: aliceblue;
+    color: black;
+    font-weight: 700;
+}
+
+.brand:hover{
+    background: #8B0000;
+    transition: .3s ease;
+    color: white;
 }

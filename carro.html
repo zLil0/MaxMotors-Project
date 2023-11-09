@@ -22,11 +22,12 @@
     <main class="wrapper">
         <h1 id="title">MARCAS</h1>
         <div id="buttons">
-            <button>Todas</button>
-            <input type="text" id="searchInput" placeholder="Ex: volkswagen">
-            <button>Pesquisar</button>
+            <button onclick="getVehicle('carros', 1)">Todas</button>
+            <input type="text" id="searchInput" placeholder="Ex: Fiat">
+            <button onclick="getVehicle('carros', 2)" id="searchButton">Pesquisar</button>
         </div>
         <div id="brands"></div>
     </main>
 </body>
+<script src="js/main.js"></script>
 </html>
